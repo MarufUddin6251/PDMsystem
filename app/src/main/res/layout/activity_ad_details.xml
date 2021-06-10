@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".AdDetails">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+
+    android:weightSum="3.4"
+    >
+    <TextView
+        android:layout_weight=".15"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Enter Location for your property"
+        />
+    <EditText
+        android:layout_weight=".15"
+        android:layout_marginTop="5dp"
+        android:textSize="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:id="@+id/locationEditTextId"/>
+
+        <TextView
+            android:layout_weight=".15"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:text="Add a photo to visualize your property:"
+            />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9C27B0"
+        android:textSize="20sp"
+        android:text="Click here to choose photo:"
+        android:layout_weight="0.15"
+        android:id="@+id/select_image_id"
+        android:textColor="#ffffff"
+        />
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        android:id="@+id/imageview_id"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_weight=".15"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:text="Add Details about your property"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight=".15"
+        android:hint="details about property including beds,bath,size"
+        android:id="@+id/set_title_id"
+        />
+    <TextView
+        android:layout_weight=".15"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight=".15"
+        android:hint="address"
+        android:id="@+id/addressEditTextId"
+        />
+
+    <TextView
+        android:layout_weight=".15"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rent(Per month)(Tk):"
+        android:textSize="15sp"
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight=".15"
+        android:hint="pick an attractive rental rate"
+        android:id="@+id/rentalRateId"
+        />
+
+    <TextView
+        android:layout_weight=".15"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:text="Contact Details : "/>
+    <EditText
+        android:layout_weight=".15"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameEditTextId"
+        android:hint="Name"/>
+    <EditText
+        android:layout_weight=".15"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneNumberEditTextId"
+        android:hint="Phone Number"/>
+    <EditText
+        android:layout_weight=".15"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailEditTextId"
+        android:hint="Enter your email"/>
+
+
+    <Button
+        android:layout_weight=".15"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post ad"
+        android:id="@+id/save_image_id"/>
+
+
+    <ProgressBar
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_weight=".15"
+        android:id="@+id/progressbar_id"
+        />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

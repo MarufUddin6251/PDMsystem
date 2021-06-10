@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/grad_bg"
+    android:orientation="vertical"
+
+
+    tools:context=".MajorFunctionalityActivity">
+
+
+
+
+    <GridLayout
+
+        android:columnCount="2"
+
+        android:rowCount="2"
+
+        android:layout_gravity="center"
+
+        android:alignmentMode="alignMargins"
+
+        android:columnOrderPreserved="false"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+
+            android:layout_width="wrap_content"
+
+            android:layout_columnWeight="1"
+
+            android:layout_rowWeight="1"
+
+            app:cardCornerRadius="12dp"
+
+            app:cardElevation="6dp"
+
+            android:id="@+id/propertyCardViewId"
+
+            android:layout_margin="12dp">
+
+
+            <LinearLayout
+
+                android:orientation="vertical"
+
+                android:gravity="center"
+
+                android:padding="16dp"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent">
+
+
+
+                <ImageView
+
+                    android:layout_width="88dp"
+
+                    android:layout_height="88dp"
+
+                    android:src="@drawable/h33"
+
+                    />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:text="Property Rent"
+
+                    android:textSize="20sp"
+
+                    android:layout_marginTop="10dp"
+
+                    android:textColor="#6f6f6f"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+
+            android:layout_width="wrap_content"
+
+            android:layout_columnWeight="1"
+
+            android:layout_rowWeight="1"
+
+            app:cardCornerRadius="12dp"
+
+            app:cardElevation="6dp"
+
+            android:id="@+id/serviceCardViewId"
+
+            android:layout_margin="12dp"
+
+            >
+
+        <LinearLayout
+
+            android:orientation="vertical"
+
+            android:gravity="center"
+
+            android:padding="16dp"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+
+
+
+            <ImageView
+
+                android:layout_width="88dp"
+
+                android:layout_height="88dp"
+
+                android:src="@drawable/sssss"
+
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="Service System"
+
+                android:textSize="20sp"
+
+                android:layout_marginTop="10dp"
+
+                android:textColor="#6f6f6f"
+
+                />
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+
+            android:layout_width="wrap_content"
+
+            android:layout_columnWeight="1"
+
+            android:layout_rowWeight="1"
+
+            app:cardCornerRadius="12dp"
+
+            app:cardElevation="6dp"
+
+            android:id="@+id/tutionCardViewID"
+
+            android:layout_margin="12dp"
+
+            >
+
+            <LinearLayout
+
+                android:orientation="vertical"
+
+                android:gravity="center"
+
+                android:padding="16dp"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent">
+
+
+
+                <ImageView
+
+                    android:layout_width="88dp"
+
+                    android:layout_height="88dp"
+
+                    android:src="@drawable/tttt"
+
+                    />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:text="Tution Media"
+
+                    android:textSize="20sp"
+
+                    android:layout_marginTop="10dp"
+
+                    android:textColor="#6f6f6f"
+
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+
+            android:layout_width="wrap_content"
+
+            android:layout_columnWeight="1"
+
+            android:layout_rowWeight="1"
+
+            app:cardCornerRadius="12dp"
+
+            app:cardElevation="6dp"
+
+            android:id="@+id/mapCardViewId"
+
+            android:layout_margin="12dp">
+
+
+            <LinearLayout
+
+                android:orientation="vertical"
+
+                android:gravity="center"
+
+                android:padding="16dp"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent">
+
+
+
+                <ImageView
+
+                    android:layout_width="88dp"
+
+                    android:layout_height="88dp"
+
+                    android:src="@drawable/h33"
+
+                    />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:text="Map to see nearest hospital,bank,institution"
+
+                    android:textSize="20sp"
+
+                    android:layout_marginTop="10dp"
+
+                    android:textColor="#6f6f6f"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+    </GridLayout>
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:id="@+id/card_imageview_id"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location : Noakhali"
+
+        android:layout_marginTop="5dp"
+        android:paddingRight="5dp"
+        android:textSize="20sp"
+        android:id="@+id/card_textview_id1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rent : 457832"
+
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:id="@+id/card_textview_id2"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Conatct Number: 083664357"
+        android:textSize="20sp"
+        android:id="@+id/card_textview_id3"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>
